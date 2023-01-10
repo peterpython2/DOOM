@@ -8,8 +8,14 @@ class ObjectRenderer:
         self.screen = game.screen
         self.wall_textures = self.load_wall_textures()
 
+
     def draw(self):
+        self.draw_background()
         self.render_game_objects()
+
+    def draw_background(self):
+        pg.draw.rect(self.screen, FLOOR_COLOR, (0, HALF_HEIGHT, WIDTH, HEIGHT))
+
     def render_game_objects(self):
         list_objects = self.game.raycasting.object_to_render
         for depth, image, pos in list_objects:

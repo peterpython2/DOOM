@@ -15,6 +15,7 @@ class ObjectRenderer:
 
     def draw_background(self):
         pg.draw.rect(self.screen, FLOOR_COLOR, (0, HALF_HEIGHT, WIDTH, HEIGHT))
+        pg.draw.rect(self.screen, CEILING_COLOR, (0, 0, WIDTH, HALF_HEIGHT))
 
     def render_game_objects(self):
         list_objects = self.game.raycasting.object_to_render

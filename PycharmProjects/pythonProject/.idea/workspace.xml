@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
+      <change afterPath="$PROJECT_DIR$/NPC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Objects/Armor_Key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprite_system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_renderer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,9 @@
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
       &quot;directory&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
 }</component>
@@ -55,6 +61,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Sprites/Objects" />
+      <recent name="$PROJECT_DIR$/Resources/Sprites" />
       <recent name="$PROJECT_DIR$/Resources/Textures" />
     </key>
   </component>
@@ -139,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673361812580</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="\">
+      <created>1673449694881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673449694881</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

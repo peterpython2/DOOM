@@ -3,6 +3,7 @@ from settings import *
 import os
 from collections import deque
 
+
 class SpriteSystem:
     def __init__(self, game, path='Resources/Sprites/Objects/Armor_Key.png',
                  pos=(10.5, 3.5), scale=0.3, shift=0.0):
@@ -17,6 +18,7 @@ class SpriteSystem:
         self.sprite_half_width = 0
         self.SPRITE_SCALE = scale
         self.SPRITE_HEIGHT_SHIFT = shift
+
     def get_sprite_projection(self):
         proj = SCREEN_DIST / self.norm_dist * self.SPRITE_SCALE
         proj_width, proj_height = proj * self.IMAGE_RATIO, proj
@@ -28,6 +30,7 @@ class SpriteSystem:
         pos = self.screen_x - self.sprite_half_width, HALF_HEIGHT - proj_height // 2 * height_shift
 
         self.game.raycasting.object_to_render.append((self.norm_dist, image, pos))
+
     def get_sprite(self):
         dx = self.x - self.player.x
         dy = self.y - self.player.y
@@ -45,9 +48,9 @@ class SpriteSystem:
         self.norm_dist = self.dist * math.cos(delta)
         if -self.IMAGE_HALF_WIDTH < self.screen_x < (WIDTH + self.IMAGE_HALF_WIDTH) and self.norm_dist > 0.5:
             self.get_sprite_projection()
+
     def update(self):
         self.get_sprite()
-
 
 class AnimatedSprite(SpriteSystem):
     def __init__(self, game, path='Resources/Sprites/NPC/death/0.png',
@@ -63,10 +66,12 @@ class AnimatedSprite(SpriteSystem):
         super().update()
         self.check_animation_time()
         self.animate(self.images)
+
     def animate(self, images):
         if self.animation_trigger:
             images.rotate(-1)
             self.image = images[0]
+
     def check_animation_time(self):
         self.animation_trigger = False
         time_now = pg.time.get_ticks()

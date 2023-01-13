@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
-      <change afterPath="$PROJECT_DIR$/Resources/Object_Handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/0.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/pain/0 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/pain/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/NPC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprite_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprite_system.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Sprites/NPC/attack" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Light" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Objects" />
       <recent name="$PROJECT_DIR$/Resources/Sprites" />
@@ -184,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673569626682</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="\">
+      <created>1673576125265</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673576125265</updated>
+    </task>
+    <task id="LOCAL-00014" summary="\">
+      <created>1673576634392</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673576634392</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

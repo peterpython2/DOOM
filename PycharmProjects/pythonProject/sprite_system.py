@@ -53,7 +53,7 @@ class SpriteSystem:
         self.get_sprite()
 
 class AnimatedSprite(SpriteSystem):
-    def __init__(self, game, path='Resources/Sprites/NPC/death/0.png',
+    def __init__(self, game, path='Resources/Sprites/Light/0.png',
                  pos=(11.5, 3.5), scale=0.8, shift=0, animation_time=120):
         super().__init__(game, path, pos, scale, shift)
         self.animation_time = animation_time

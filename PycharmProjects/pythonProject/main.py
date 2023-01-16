@@ -6,6 +6,10 @@ from player import *
 from raycasting import *
 from object_renderer import *
 from sprite_system import *
+from shotgun import *
+from object_renderer import *
+import object_handler
+
 class Game:
     def __init__(self):
         pg.init()
@@ -20,8 +24,8 @@ class Game:
         self.player = Player(self)
         self.object_renderer = ObjectRenderer(self)
         self.raycasting = RayCasting(self)
-        self.static_sprite = SpriteSystem(self)
-        self.animated_sprite = AnimatedSprite(self)
+        self.object_handler = SpriteSystem(self)
+        self.weapon = Weapon(self)
 
     def update(self):
         self.player.update()

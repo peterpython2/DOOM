@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/0.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/attack/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/death/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/idle/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/pain/0 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/pain/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/NPC/walk/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/npc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Object_Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/object_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673576634392</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="\">
+      <created>1673578766752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673578766752</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

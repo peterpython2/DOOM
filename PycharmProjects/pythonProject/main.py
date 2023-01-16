@@ -1,5 +1,6 @@
 import pygame as pg
 import sys
+import os
 from settings import *
 from map import *
 from player import *
@@ -7,8 +8,9 @@ from raycasting import *
 from object_renderer import *
 from sprite_system import *
 from shotgun import *
-from object_renderer import *
-import object_handler
+from object_handler import *
+
+
 
 class Game:
     def __init__(self):
@@ -25,7 +27,7 @@ class Game:
         self.object_renderer = ObjectRenderer(self)
         self.raycasting = RayCasting(self)
         self.object_handler = SpriteSystem(self)
-        self.weapon = Weapon(self)
+
 
     def update(self):
         self.player.update()

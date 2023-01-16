@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
-      <change afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/npc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Object_Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/object_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/object_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +60,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/NPC/attack" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Light" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Objects" />
       <recent name="$PROJECT_DIR$/Resources/Sprites" />
-      <recent name="$PROJECT_DIR$/Resources/Textures" />
     </key>
   </component>
   <component name="RunManager">
@@ -206,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673578766752</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="\">
+      <created>1673879876086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673879876086</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

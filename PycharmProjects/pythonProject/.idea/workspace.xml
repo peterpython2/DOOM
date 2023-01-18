@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\" />
+    <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shotgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +67,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Sprites/Gun" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/NPC/attack" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Light" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Objects" />
-      <recent name="$PROJECT_DIR$/Resources/Sprites" />
     </key>
   </component>
   <component name="RunManager">
@@ -214,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673884627085</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="\">
+      <created>1673964431366</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673964431366</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

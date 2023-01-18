@@ -27,6 +27,9 @@ class Game:
         self.object_renderer = ObjectRenderer(self)
         self.raycasting = RayCasting(self)
         self.object_handler = SpriteSystem(self)
+        self.weapon = Weapon(self)
+        self.static_sprite = SpriteSystem(self)
+        self.animated_sprite = AnimatedSprite(self)
 
 
     def update(self):
@@ -34,6 +37,8 @@ class Game:
         self.raycasting.update()
         self.static_sprite.update()
         self.animated_sprite.update()
+        self.object_handler.update()
+        self.weapon.update()
         pg.display.flip()
         self.delta_time = self.clock.tick(FPS)
         pg.display.set_caption(f'{self.clock.get_fps() :.1f}')
@@ -41,6 +46,7 @@ class Game:
     def draw(self):
         self.screen.fill('black')
         self.object_renderer.draw()
+        self.weapon.draw()
        # self.map.draw()
        # self.player.draw()
 

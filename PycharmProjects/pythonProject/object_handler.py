@@ -13,6 +13,7 @@ class ObjectHandler:
         #Sprite Map
 
         add_sprite(SpriteSystem(game))
+        add_sprite(SpriteSystem(game, pos=(8, 3)))
         add_sprite(AnimatedSprite(game))
 
         #NPC Map

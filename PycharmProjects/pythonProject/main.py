@@ -9,6 +9,7 @@ from object_renderer import *
 from sprite_system import *
 from shotgun import *
 from object_handler import *
+from npc import *
 
 
 
@@ -26,17 +27,17 @@ class Game:
         self.player = Player(self)
         self.object_renderer = ObjectRenderer(self)
         self.raycasting = RayCasting(self)
-        self.object_handler = SpriteSystem(self)
+        self.object_handler = ObjectHandler(self)
         self.weapon = Weapon(self)
-        self.static_sprite = SpriteSystem(self)
-        self.animated_sprite = AnimatedSprite(self)
+        #self.static_sprite = SpriteSystem(self)
+        #self.animated_sprite = AnimatedSprite(self)
 
 
     def update(self):
         self.player.update()
         self.raycasting.update()
-        self.static_sprite.update()
-        self.animated_sprite.update()
+       # self.static_sprite.update()
+        #self.animated_sprite.update()
         self.object_handler.update()
         self.weapon.update()
         pg.display.flip()
@@ -55,6 +56,7 @@ class Game:
             if event.type == pg.QUIT or (event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE):
                 pg.quit()
                 sys.exit()
+            self.player.single_fire_event(event)
 
     def run(self):
         while True:

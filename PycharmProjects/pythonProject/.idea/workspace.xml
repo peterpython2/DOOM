@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
-      <change afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Sprites/pain_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/gg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pathfinding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Gun/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Gun/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Gun/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Gun/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Gun/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Gun/5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npc.py" beforeDir="false" afterPath="$PROJECT_DIR$/npc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_renderer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shotgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +68,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources" />
+      <recent name="$PROJECT_DIR$/Resources/Sprites" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Gun" />
       <recent name="$PROJECT_DIR$/Resources/Sprites/Light" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/Resources/Sprites/NPC/attack" />
     </key>
   </component>
   <component name="RunManager">
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674020110102</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="\">
+      <created>1674107742369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674107742369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

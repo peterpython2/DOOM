@@ -10,6 +10,7 @@ from sprite_system import *
 from shotgun import *
 from object_handler import *
 from npc import *
+from pathfinding import *
 
 
 
@@ -29,6 +30,7 @@ class Game:
         self.raycasting = RayCasting(self)
         self.object_handler = ObjectHandler(self)
         self.weapon = Weapon(self)
+        self.pathfinding = PathFinding(self)
         #self.static_sprite = SpriteSystem(self)
         #self.animated_sprite = AnimatedSprite(self)
 

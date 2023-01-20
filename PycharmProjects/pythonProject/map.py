@@ -18,6 +18,8 @@ class Map:
         self.game = game
         self.mini_map = mini_map
         self.world_map = {}
+        self.rows = len(self.mini_map)
+        self.cols = len(self.mini_map[0])
         self.get_map()
 
     def get_map(self):
@@ -29,4 +31,3 @@ class Map:
     def draw(self):
         [pg.draw.rect(self.game.screen, 'darkgrey', (pos[0] * 100, pos[1] * 100, 100, 100), 2)
          for pos in self.world_map]
-

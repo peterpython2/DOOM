@@ -7,12 +7,19 @@ class ObjectRenderer:
         self.game = game
         self.screen = game.screen
         self.wall_textures = self.load_wall_textures()
+        self.pain_screen = self.get_texture('Resources/Sprites/pain_screen.png', RES)
+        self.game_over_image = self.get_texture('Resources/gg.png', RES)
 
 
     def draw(self):
         self.draw_background()
         self.render_game_objects()
 
+    def game_over(self):
+        self.screen.blit(self.game_over_image, (0, 0))
+
+    def player_damage(self):
+        self.screen.blit(self.pain_screen, (0, 0))
     def draw_background(self):
         pg.draw.rect(self.screen, FLOOR_COLOR, (0, HALF_HEIGHT, WIDTH, HEIGHT))
         pg.draw.rect(self.screen, CEILING_COLOR, (0, 0, WIDTH, HALF_HEIGHT))

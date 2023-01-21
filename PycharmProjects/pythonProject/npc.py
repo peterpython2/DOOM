@@ -59,7 +59,7 @@ class NPC(AnimatedSprite):
 
     def animate_death(self):
         if not self.alive:
-            if self.sanimation_trigger and self.frame_counter < len(self.death_images) - 1:
+            if self.animation_trigger and self.frame_counter < len(self.death_images) - 1:
                 self.death_images.rotate(-1)
                 self.image = self.death_images[0]
                 self.frame_counter += 1

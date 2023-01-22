@@ -1,12 +1,13 @@
 from sprite_system import *
 
-
+# weapon class that builds off of the AnimatedSprite class
 class Weapon(AnimatedSprite):
     def __init__(self, game, path='Resources/Sprites/Gun/9.png', scale=3, animation_time=90):
         super().__init__(game=game, path=path, scale=scale, animation_time=animation_time)
         self.images = deque(
             [pg.transform.smoothscale(img, (self.image.get_width() * scale, self.image.get_height() * scale))
              for img in self.images])
+        # calculates positon of weapon 
         self.weapon_pos = (HALF_WIDTH - self.images[0].get_width() // 2, HEIGHT - self.images[0].get_height())
         self.reloading = False
         self.num_images = len(self.images)

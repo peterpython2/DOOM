@@ -53,7 +53,7 @@ class ObjectHandler:
 
     def check_win(self):
         if not len(self.npc_positions):
-            self.game.object_renderer.win()
+            self.game.object_renderer.victory()
             pg.display.flip()
             pg.time.delay(1500)
             self.game.new_game()

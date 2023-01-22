@@ -8,7 +8,8 @@ class ObjectRenderer:
         self.screen = game.screen
         self.wall_textures = self.load_wall_textures()
         self.pain_screen = self.get_texture('Resources/Sprites/pain_screen.png', RES)
-        self.game_over_image = self.get_texture('Resources/gg.png', RES)
+        self.victory_image = self.get_texture('Resources/victory.png', RES)
+        self.defeat_image = self.get_texture('Resources/defeat.png', RES)
 
 
     def draw(self):
@@ -16,7 +17,10 @@ class ObjectRenderer:
         self.render_game_objects()
 
     def game_over(self):
-        self.screen.blit(self.game_over_image, (0, 0))
+        self.screen.blit(self.defeat_image, (0, 0))
+
+    def victory(self):
+        self.screen.blit(self.victory_image,(0, 0))
 
     def player_damage(self):
         self.screen.blit(self.pain_screen, (0, 0))

@@ -3,8 +3,13 @@ import pygame as pg
 import math
 
 
+# class Player defines methods of control for the player in the game and ways the player interacts with other game elements
+
 class Player:
     def __init__(self, game):
+
+        # sets initial variables of player such as location, health, angle, ect.
+
         self.game = game
         self.x, self.y = PLAYER_POS
         self.angle = PLAYER_ANGLE
@@ -13,37 +18,57 @@ class Player:
         self.rel = 0
         self.health_recovery_delay = 600
         self.time_prev = pg.time.get_ticks()
+        self.complete = True
 
     def single_fire_event(self, event):
+
+        # when right mouse button is clicked shot occurs and reloading animation is set into action
+
         if event.type == pg.MOUSEBUTTONDOWN:
             if event.button == 1 and not self.shot and not self.game.weapon.reloading:
                 self.shot = True
                 self.game.weapon.reloading = True
 
     def recover_health(self):
+
+        # increases players health by one if players health is less than maximum and after the recovery delay passes
+
         if self.check_health_recovery_delay() and self.health < PLAYER_MAX_HEALTH:
             self.health += 1
 
     def check_health_recovery_delay(self):
+
+        # checks if delay is passed by comparing current time with the previous time health was recovered
+
         time_now = pg.time.get_ticks()
         if time_now - self.time_prev > self.health_recovery_delay:
             self.time_prev = time_now
             return True
 
     def check_game_over(self):
+
+        # checks if health is less than 0, if so calls game_over
+
         if self.health < 1:
+            complete = False
             self.game.object_renderer.game_over()
             pg.display.flip()
             pg.time.delay(1500)
             self.game.new_game()
 
     def get_damage(self, damage):
+
+        # decreases players health by set amount when attacked
+
         self.health -= damage
         self.game.object_renderer.player_damage()
         self.check_game_over()
 
 
     def movement(self):
+
+        # sets movement for wasd keys by using triganometry
+
         sin_a = math.sin(self.angle)
         cos_a = math.cos(self.angle)
         dx, dy = 0, 0

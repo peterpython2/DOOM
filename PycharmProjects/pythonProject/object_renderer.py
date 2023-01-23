@@ -2,10 +2,10 @@ import pygame as pg
 
 import timer
 from settings import *
-from timer import *
 
-class ObjectRenderer(Timer):
-    def __init__(self, game, ):
+
+class ObjectRenderer:
+    def __init__(self, game):
         # initialize variables
         self.game = game
         self.screen = game.screen
@@ -13,6 +13,7 @@ class ObjectRenderer(Timer):
         self.pain_screen = self.get_texture('Resources/Sprites/pain_screen.png', RES)
         self.victory_image = self.get_texture('Resources/victory.png', RES)
         self.defeat_image = self.get_texture('Resources/defeat.png', RES)
+
 
     def draw(self):
         # draw background and game objects
@@ -22,8 +23,8 @@ class ObjectRenderer(Timer):
     def game_over(self):
         # draw game over screen
         self.screen.blit(self.defeat_image, (0, 0))
-        self.timer.Timer.save_time()
-        self.timer.Timer.print_results()
+
+
 
 
     def victory(self):

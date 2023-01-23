@@ -22,8 +22,6 @@ class ObjectRenderer(Timer):
     def game_over(self):
         # draw game over screen
         self.screen.blit(self.defeat_image, (0, 0))
-        self.timer.Timer.save_time()
-        self.timer.Timer.print_results()
 
 
     def victory(self):

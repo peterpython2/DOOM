@@ -1,6 +1,6 @@
 # Jack Thompson
 # 12/22/2022
-# DOOM styled ray-casting first-person shooter
+# DOOM styled raycasting firstperson shooter
 
 
 import pygame as pg
@@ -16,7 +16,6 @@ from shotgun import *
 from object_handler import *
 from npc import *
 from pathfinding import *
-
 
 
 

@@ -1,17 +1,14 @@
 import pygame
 import sqlite3
-import time
-from sprite_system import *
 
-# Failed attempt at a timer, does not work and was removed from final code, kept here to show that I tried
-# This was supposed to be the database component
+
 class Timer:
-    def __init__(self, game):
+    def __init__(self):
+        # Initialize pygame
+        pygame.init()
 
-        TitleFont = pygame.font.SysFont("Comic Sans MS", 50)
         # Set the screen size and caption
-        Time_init = 0
-        self.Lime = TitleFont.render("Time: " + str(Time_init), False,(255, 255, 255))
+        self.screen = pygame.display.set_mode((800, 600))
         pygame.display.set_caption("Timer")
 
         # Set the font and font size for the timer
@@ -80,20 +77,6 @@ class Timer:
 
         print("Game over! Time: ", self.final_time)
         print("Lowest time: ", lowest_time)
-
-    def draw(self):
-
-        # draws weapon onto screen
-
-        self.game.screen.blit(self.Lime, (200, 0))
-
-    def update(self):
-
-        # updates elements of the Weapon class
-
-        self.save_time()
-        self.print_results()
-
 
 
 if __name__ == '__main__':

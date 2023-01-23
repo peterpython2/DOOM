@@ -1,6 +1,6 @@
 import pygame as pg
 
-import timer
+
 from settings import *
 from timer import *
 

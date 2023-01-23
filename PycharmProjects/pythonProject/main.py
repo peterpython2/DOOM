@@ -1,23 +1,17 @@
 # Jack Thompson
 # 12/22/2022
-# DOOM styled raycasting firstperson shooter
+# DOOM styled ray-casting first-person shooter
 
 
-import pygame as pg
 import sys
-import os
-from settings import *
 from map import *
 from player import *
 from raycasting import *
 from object_renderer import *
-from sprite_system import *
 from shotgun import *
 from object_handler import *
 from npc import *
 from pathfinding import *
-
-
 
 
 class Game:
@@ -40,9 +34,8 @@ class Game:
         self.object_handler = ObjectHandler(self)
         self.weapon = Weapon(self)
         self.pathfinding = PathFinding(self)
-        #self.static_sprite = SpriteSystem(self)
-        #self.animated_sprite = AnimatedSprite(self)
-
+        # self.static_sprite = SpriteSystem(self)
+        # self.animated_sprite = AnimatedSprite(self)
 
     def update(self):
 
@@ -63,7 +56,6 @@ class Game:
         self.screen.fill('black')
         self.object_renderer.draw()
         self.weapon.draw()
-
 
     def check_events(self):
 

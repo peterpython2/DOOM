@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npc.py" beforeDir="false" afterPath="$PROJECT_DIR$/npc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_renderer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pathfinding.py" beforeDir="false" afterPath="$PROJECT_DIR$/pathfinding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raycasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/raycasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shotgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprite_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprite_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,8 +262,33 @@
       <option name="project" value="LOCAL" />
       <updated>1674373978697</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="\">
+      <created>1674443239057</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674443239057</updated>
+    </task>
+    <task id="LOCAL-00025" summary="\">
+      <created>1674446229660</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674446229660</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

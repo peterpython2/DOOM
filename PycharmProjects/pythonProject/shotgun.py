@@ -15,18 +15,32 @@ class Weapon(AnimatedSprite):
         self.damage = 50
 
     def animate_shot(self):
+
+        # check if reloading attribute is true
         if self.reloading:
+            # set shot to false so player cannot shoot while reloading
             self.game.player.shot = False
+
+            # rotates through image deque when animation_trigger is true, counts number of frames shown
             if self.animation_trigger:
                 self.images.rotate(-1)
                 self.image = self.images[0]
                 self.frame_counter += 1
+
+                # if the frame_counter is equal to the number of images animation if complete and self.reloading is...
+                # ...false, also sets frame counter to zero so frame_counter is never greater than num_images
                 if self.frame_counter == self.num_images:
                     self.reloading = False
                     self.frame_counter = 0
     def draw(self):
+
+        # draws weapon onto screen
+
         self.game.screen.blit(self.images[0], self.weapon_pos)
 
     def update(self):
+
+        # updates elements of the Weapon class
+
         self.check_animation_time()
         self.animate_shot()

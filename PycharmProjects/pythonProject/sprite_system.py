@@ -3,10 +3,12 @@ from settings import *
 import os
 from collections import deque
 
-
+# class responsible for handling and creating static sprites
 class SpriteSystem:
     def __init__(self, game, path='Resources/Sprites/Objects/Armor_Key.png',
                  pos=(10.5, 3.5), scale=0.3, shift=0.0):
+
+        # initialize variables
         self.game = game
         self.player = game.player
         self.x, self.y = pos
@@ -20,6 +22,9 @@ class SpriteSystem:
         self.SPRITE_HEIGHT_SHIFT = shift
 
     def get_sprite_projection(self):
+
+        # calculates sprite projection and appends it to the object_to_render list
+
         proj = SCREEN_DIST / self.norm_dist * self.SPRITE_SCALE
         proj_width, proj_height = proj * self.IMAGE_RATIO, proj
 
@@ -32,6 +37,9 @@ class SpriteSystem:
         self.game.raycasting.object_to_render.append((self.norm_dist, image, pos))
 
     def get_sprite(self):
+
+        # calculates the sprite and calls the get_sprite_projection function if the sprite is in view
+
         dx = self.x - self.player.x
         dy = self.y - self.player.y
         self.dx, self.dy = dx, dy
@@ -50,12 +58,15 @@ class SpriteSystem:
             self.get_sprite_projection()
 
     def update(self):
-        self.get_sprite()
 
+        # updates elements of the SpriteSystem class
+        self.get_sprite()
 class AnimatedSprite(SpriteSystem):
     def __init__(self, game, path='Resources/Sprites/Light/0.png',
                  pos=(11.5, 3.5), scale=0.8, shift=0, animation_time=120):
         super().__init__(game, path, pos, scale, shift)
+
+        # initializes variables
         self.animation_time = animation_time
         self.path = path.rsplit('/', 1)[0]
         self.images = self.get_images(self.path)
@@ -63,16 +74,22 @@ class AnimatedSprite(SpriteSystem):
         self.animation_trigger = False
 
     def update(self):
+
+        # updates elements of the AnimatedSprite class
         super().update()
         self.check_animation_time()
         self.animate(self.images)
 
     def animate(self, images):
+
+        # rotates through deque of sprite images when animation_trigger is true
         if self.animation_trigger:
             images.rotate(-1)
             self.image = images[0]
 
     def check_animation_time(self):
+
+        # checks if the animation time has pased and triggers animation
         self.animation_trigger = False
         time_now = pg.time.get_ticks()
         if time_now - self.animation_time_prev > self.animation_time:
@@ -80,6 +97,8 @@ class AnimatedSprite(SpriteSystem):
             self.animation_trigger = True
 
     def get_images(self, path):
+
+        # loads all images in a folder and adds them to a deque
         images = deque()
         for file_name in os.listdir(path):
             if os.path.isfile(os.path.join(path, file_name)):

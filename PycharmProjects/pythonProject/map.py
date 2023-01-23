@@ -35,7 +35,7 @@ class Map:
 
     def draw(self):
 
-        # draws map on screen with blocks representing each number
+        # draws map on screen with blocks representing each number, this is not used in final code
 
         [pg.draw.rect(self.game.screen, 'darkgrey', (pos[0] * 100, pos[1] * 100, 100, 100), 2)
          for pos in self.world_map]

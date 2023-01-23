@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f9d52d-e692-4984-b218-2b0c6f705af5" name="Changes" comment="\">
-      <change afterPath="$PROJECT_DIR$/Resources/defeat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/victory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/gg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npc.py" beforeDir="false" afterPath="$PROJECT_DIR$/npc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinding.py" beforeDir="false" afterPath="$PROJECT_DIR$/pathfinding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raycasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/raycasting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shotgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/shotgun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprite_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprite_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/timer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674320286066</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="\">
+      <created>1674373978697</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674373978697</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
